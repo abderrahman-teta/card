@@ -67,21 +67,13 @@ p {
   line-height: 1.6;
 }
 @media (max-width: 1470px) {
-  .main {
-    height: 100vh;
-  }
   .content {
     width: 80%;
-    height: 500px;
   }
   .img {
-    border-radius: 0 !important;
     width: 50%;
   }
 
-  img {
-    border-radius: 0 !important;
-  }
   .numbers {
     margin-top: 20px;
   }
@@ -91,9 +83,9 @@ p {
     flex: 2;
   }
 }
-@media (max-width: 1550px) {
+@media (max-width: 1000px) {
   .content {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 800px) {
