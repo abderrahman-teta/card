@@ -14,7 +14,7 @@
   align-items: center;
 }
 .content {
-  width: 60%;
+  width: 1050px;
   background-color: hsl(244, 38%, 16%);
   display: flex;
   border-radius: 10px;
@@ -66,9 +66,9 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.6;
 }
-@media (max-width: 1470px) {
+@media (max-width: 1500px) {
   .content {
-    width: 80%;
+    width: 1000px !important;
   }
   .img {
     width: 50%;
@@ -83,12 +83,8 @@ p {
     flex: 2;
   }
 }
-@media (max-width: 1000px) {
-  .content {
-    width: 90%;
-  }
-}
-@media (max-width: 800px) {
+
+@media (max-width: 900px) {
   .content {
     width: 100%;
   }
